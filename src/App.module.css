@@ -1,7 +1,8 @@
 .jobApp {
   display: grid;
-  grid-template-rows: 30rem max-content;
+  grid-template-rows: minmax(30rem, max-content) max-content;
   justify-content: center;
+  gap: 5rem;
 }
 
 .background-img {
@@ -14,4 +15,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.attribution {
+  margin: 3.5rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: inherit;
+}
+
+.btn {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
 }

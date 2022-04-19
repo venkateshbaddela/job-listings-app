@@ -1,5 +1,5 @@
 .filter {
-  height: 5.5rem;
+  min-height: 5.5rem;
   margin-left: 3rem;
   margin-right: 3rem;
   margin-top: calc(250px - 2.5rem);
@@ -9,12 +9,14 @@
   box-shadow: 0 0.15rem 2rem rgba(91, 164, 164, 0.3);
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   cursor: pointer;
 }
 
 .filter-btns {
   display: flex;
   align-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
