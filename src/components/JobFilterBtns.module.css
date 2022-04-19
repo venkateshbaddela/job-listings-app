@@ -1,0 +1,30 @@
+.jobBtns {
+  align-self: center;
+  justify-self: end;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.jobBtn {
+  padding: 1.25rem 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--light-grayish-cyan);
+  color: var(--desaturated-dark-cyan);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.jobBtn:hover {
+  background-color: var(--desaturated-dark-cyan);
+  color: var(--light-grayish-cyan);
+}
+
+@media only screen and (max-width: 950px) {
+  .jobBtns {
+    justify-self: start;
+    align-self: start;
+    flex-wrap: wrap;
+  }
+}
