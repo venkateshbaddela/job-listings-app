@@ -29,6 +29,7 @@ body {
   display: grid;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 375px) {
   html {
     font-size: 50%;
