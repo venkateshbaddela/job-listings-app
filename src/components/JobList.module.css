@@ -40,7 +40,7 @@
 
 @media only screen and (max-width: 950px) {
   .joblist {
-    max-width: 52.5rem;
+    max-width: 55rem;
     gap: 6.5rem;
   }
   .joblist-item {

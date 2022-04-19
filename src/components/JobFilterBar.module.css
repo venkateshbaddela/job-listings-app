@@ -9,7 +9,7 @@
   box-shadow: 0 0.15rem 2rem rgba(91, 164, 164, 0.3);
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
   cursor: pointer;
 }
 
@@ -63,6 +63,6 @@
 
 @media only screen and (max-width: 950px) {
   .filter {
-    max-width: 52.5rem;
+    max-width: 55rem;
   }
 }
