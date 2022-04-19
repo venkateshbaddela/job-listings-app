@@ -8,7 +8,6 @@ interface SingleJobProps {
 }
 
 const SingleJob: React.FC<SingleJobProps> = ({ job }) => {
-  console.log(job.logo);
   return (
     <Card className={styles.job}>
       <img src={job.logo} alt="company logo" className={styles["job-img"]} />

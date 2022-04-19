@@ -60,3 +60,9 @@
 .filter:hover .clear-btn {
   opacity: 1;
 }
+
+@media only screen and (max-width: 950px) {
+  .filter {
+    max-width: 55rem;
+  }
+}
