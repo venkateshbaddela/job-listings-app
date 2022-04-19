@@ -2,7 +2,7 @@
   display: grid;
   grid-template-rows: minmax(30rem, max-content) max-content;
   justify-content: center;
-  gap: 5rem;
+  gap: 3.5rem;
 }
 
 .background-img {

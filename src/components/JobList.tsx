@@ -27,6 +27,7 @@ const JobList: React.FC = () => {
               }`}
             >
               <SingleJob job={data}></SingleJob>
+              <hr className={styles.border} />
               <JobFilterBtns job={data}></JobFilterBtns>
             </motion.div>
           </LayoutGroup>

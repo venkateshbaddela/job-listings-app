@@ -1,6 +1,5 @@
 .joblist {
   grid-row: 2/3;
-
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
@@ -38,7 +37,7 @@
 @media only screen and (max-width: 950px) {
   .joblist {
     max-width: 55rem;
-    gap: 5.5rem;
+    gap: 6.5rem;
   }
   .joblist-item {
     padding: 4rem 2.5rem 2.5rem;
