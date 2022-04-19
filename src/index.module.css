@@ -30,7 +30,7 @@ body {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   html {
     font-size: 50%;
   }

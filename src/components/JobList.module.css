@@ -34,9 +34,13 @@
   border-bottom-left-radius: 0.5rem;
 }
 
+.border {
+  display: none;
+}
+
 @media only screen and (max-width: 950px) {
   .joblist {
-    max-width: 55rem;
+    max-width: 52.5rem;
     gap: 6.5rem;
   }
   .joblist-item {
@@ -44,6 +48,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr max-content;
     gap: 4rem;
+  }
+  .border {
+    display: block;
   }
 }
 
